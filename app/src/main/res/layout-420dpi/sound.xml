@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="START"
+            android:id="@+id/start"
+            android:background="@android:color/holo_orange_light"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="39dp" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="STOP"
+            android:id="@+id/stop"
+            android:background="@android:color/holo_orange_light"
+            android:layout_alignTop="@+id/start"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="35dp" />
+
+        <EditText
+            android:layout_width="275dp"
+            android:layout_height="50dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/phone"
+            android:layout_marginBottom="50dp"
+            android:background="@color/dim_foreground_material_light"
+            android:layout_above="@+id/start"
+            android:layout_alignStart="@+id/start" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ENTER MOBILE NUMBER:"
+            android:id="@+id/textView8"
+            android:layout_above="@+id/phone"
+            android:layout_alignStart="@+id/phone"
+            android:textSize="20dp"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+</LinearLayout>

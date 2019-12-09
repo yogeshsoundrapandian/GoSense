@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Go Sense</string>
+    <string name="sound_analyzer">SOUND\nANALYZER</string>
+    <string name="make_call">MAKE A CALL</string>
+    <string name="send_message">SEND MESSAGE</string>
+    <string name="tfmhelp">HELP:\n  PRESS VOLUME_DOWN TO CHOOSE\n  PRESS VOLUME_UP TO SELECT</string>
+    <string name="help">HELP:\n PRESS VOLUME_DOWN TO TYPE NUMBER\n PRESS VOLUME_UP TO CALL</string>
+</resources>

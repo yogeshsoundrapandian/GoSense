@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/latitude"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="107dp"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/longitude"
+            android:layout_below="@+id/latitude"
+            android:layout_alignStart="@+id/latitude"
+            android:layout_marginTop="45dp"
+            android:textSize="25dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="LATITUDE"
+            android:id="@+id/textView16"
+            android:layout_alignBottom="@+id/latitude"
+            android:layout_alignStart="@+id/latitude"
+            android:layout_marginBottom="53dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="LONGITUDE"
+            android:id="@+id/textView17"
+            android:layout_below="@+id/textView16"
+            android:layout_alignStart="@+id/latitude"
+            android:layout_marginTop="20dp" />
+    </RelativeLayout>
+</LinearLayout>

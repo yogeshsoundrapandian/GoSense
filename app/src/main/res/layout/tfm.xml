@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="TOUCH FREE MODE"
+            android:id="@+id/textView9"
+            android:layout_marginTop="42dp"
+            android:layout_marginRight="90dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <ImageButton
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:id="@+id/call"
+            android:layout_below="@+id/textView9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="76dp"
+            android:layout_marginBottom="10dp"
+            android:src="@android:drawable/ic_menu_call"
+            android:scaleType="fitStart"
+            android:background="@android:color/holo_green_dark" />
+
+        <ImageButton
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:id="@+id/msg"
+            android:src="@android:drawable/ic_dialog_email"
+            android:scaleType="fitStart"
+            android:background="@android:color/holo_orange_dark"
+            android:layout_below="@+id/call"
+            android:layout_alignStart="@+id/call"
+            android:padding="10dp"
+            android:contentDescription="10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/make_call"
+            android:id="@+id/textView10"
+            android:layout_marginEnd="32dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="25dp"
+            android:layout_alignBottom="@+id/call"
+            android:layout_alignEnd="@+id/call" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/send_message"
+            android:id="@+id/textView11"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_below="@+id/op1"
+            android:layout_alignEnd="@+id/msg"
+            android:layout_marginTop="25dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/tfmhelp"
+            android:id="@+id/textView12"
+            android:textColor="#ffffff"
+            android:background="@color/dim_foreground_disabled_material_light"
+            android:textSize="16sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="05dp" />
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="70dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/op1"
+            android:layout_alignTop="@+id/call"
+            android:layout_alignStart="@+id/textView9"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="80dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="15dp" />
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="70dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/op2"
+            android:layout_alignTop="@+id/msg"
+            android:layout_alignStart="@+id/op1"
+            android:textColor="@android:color/holo_red_dark"
+            android:textAlignment="center"
+            android:textSize="80dp" />
+    </RelativeLayout>
+</LinearLayout>
