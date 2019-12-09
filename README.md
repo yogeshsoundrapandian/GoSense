@@ -1,2 +1,2 @@
 # GoSense
-Android App that uses volume buttons and gryosensor during mobile damage or breakdown
+Android App that uses volume buttons and gyrosensor during mobile damage or breakdown
